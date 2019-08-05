@@ -1,0 +1,5 @@
+<ul>
+  <% @transactions.find_each do |transaction| %>
+    <li>[<%= l(transaction.date) %>] <%= transaction.title %> <%= transaction.amount.format %></li>
+  <% end %>
+</ul>
