@@ -63,3 +63,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem "pg"
 gem "money-rails"
+gem "nokogiri"
+gem "monetize"
+gem "activerecord-import"
